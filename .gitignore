@@ -6,3 +6,18 @@ node_modules
 test-ledger
 .yarn
 .surfpool
+
+# Editor / IDE
+.vscode
+.idea
+*.code-workspace
+
+# Toolchain install artifacts (Rust / Solana / Anchor setup)
+*.tar.bz2
+*.tar.gz
+*.excalidraw
+wsl-*.sh
+*.sh
+
+# Environment
+.env
