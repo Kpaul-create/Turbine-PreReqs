@@ -1,0 +1,12 @@
+[package]
+name = "q3_pre_reqs_rs"
+version = "0.1.0"
+description = "Registration program - records GitHub username prerequisites"
+edition = "2021"
+
+[lib]
+crate-type = ["lib"]
+name = "registration"
+
+[dependencies]
+anchor-lang = "1.1.2"
